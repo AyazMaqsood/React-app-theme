@@ -11,12 +11,16 @@ import Banner2 from './Componenets/Banner2'
 import Editors from './Componenets/Editors'
 import Cards from './Componenets/cards'
 import Banner3 from './Componenets/Banners3'
+import Statesasign from './States.jsx/Statesasign'
+import Navbar2 from './States.jsx/Navbar2'
+import Home2 from './States.jsx/Home2'
+import  "./App.css"
 
 
 export default function App() {
   return (
     <div>
-      <Navbar/>
+       {/* <Navbar/>
        <Home/>
        <Banner/>
        <About/>
@@ -26,7 +30,9 @@ export default function App() {
        <Banner2/>
        <Editors/>
        <Cards/>
-       <Banner3/>
+       <Banner3/>  */}
+       <Navbar2/>
+       <Home2/>
 
     </div>
   )
