@@ -1,4 +1,4 @@
-.dark{
+/* .dark{
     background-color: black;
     color: white;
    
@@ -11,7 +11,20 @@
     font-size: 50px;
     margin-top: 20px;
     margin-bottom: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+   text-align: center;
+}
+.main{
+    width: 99%;
+    background-color: black;
+} */
+
+
+.container .row .col-4 img{
+  height: 120px;
+}
+span{
+  font-size: 10px;
+}
+small{
+  font-size: 10px;
 }

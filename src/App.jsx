@@ -11,10 +11,12 @@ import Banner2 from './Componenets/Banner2'
 import Editors from './Componenets/Editors'
 import Cards from './Componenets/cards'
 import Banner3 from './Componenets/Banners3'
-import Statesasign from './States.jsx/Statesasign'
-import Navbar2 from './States.jsx/Navbar2'
-import Home2 from './States.jsx/Home2'
+import Navbar2 from './States/Navbar2'
+import Home2 from './States/Home2'
 import  "./App.css"
+import Apis from './States/Apis'
+
+
 
 
 export default function App() {
@@ -31,9 +33,9 @@ export default function App() {
        <Editors/>
        <Cards/>
        <Banner3/>  */}
-       <Navbar2/>
-       <Home2/>
-
+       {/* <Navbar2/>
+       <Home2/> */}
+       <Apis/>
     </div>
   )
 }

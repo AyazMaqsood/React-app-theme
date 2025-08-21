@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Navbar2() {
   return (
-    <div>
+    <div className='nav-main'>
      <header>
       <nav>
         <h1>
