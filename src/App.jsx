@@ -15,6 +15,7 @@ import Navbar2 from './States/Navbar2'
 import Home2 from './States/Home2'
 import  "./App.css"
 import Apis from './States/Apis'
+import Apicards from './States/Apicards'
 
 
 
@@ -35,7 +36,8 @@ export default function App() {
        <Banner3/>  */}
        {/* <Navbar2/>
        <Home2/> */}
-       <Apis/>
+       {/* <Apis/> */}
+       <Apicards/>
     </div>
   )
 }
