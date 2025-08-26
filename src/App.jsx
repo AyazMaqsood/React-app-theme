@@ -16,6 +16,8 @@ import Home2 from './States/Home2'
 import  "./App.css"
 import Apis from './States/Apis'
 import Apicards from './States/Apicards'
+import Apidisplay from './States/Apidisplay'
+import Apisassign from './States/Apisassign'
 
 
 
@@ -23,8 +25,8 @@ import Apicards from './States/Apicards'
 export default function App() {
   return (
     <div>
-       {/* <Navbar/>
-       <Home/>
+       <Navbar/>
+       {/* <Home/>
        <Banner/>
        <About/>
        <Services/>
@@ -37,7 +39,9 @@ export default function App() {
        {/* <Navbar2/>
        <Home2/> */}
        {/* <Apis/> */}
-       <Apicards/>
+       {/* <Apicards/> */}
+       {/* <Apidisplay/> */}
+       <Apisassign/>
     </div>
   )
 }
